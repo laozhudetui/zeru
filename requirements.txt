@@ -1,4 +1,4 @@
-django==2.2.8
+django==3.2.15
 kafka-python
 kafka
 apscheduler
@@ -7,3 +7,4 @@ ares
 requests
 osquery
 pymysql
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
